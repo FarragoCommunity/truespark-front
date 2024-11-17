@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 function Recent() {
     const [data, setData] = useState(null);
     useEffect(() => {
-        axios.get("https://truespark-backend.vercel.app//api/v1/articles/?limit=4").then((res) => {
+        axios.get("https://truespark-backend.vercel.app/api/v1/articles/?limit=4").then((res) => {
             setData(res.data.blogs);
         });
 

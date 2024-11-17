@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const Axios = axios.create({
-    baseURL: "https://truespark-backend.vercel.app//api/v1/",
+    baseURL: "https://truespark-backend.vercel.app/api/v1/",
     headers: {
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
